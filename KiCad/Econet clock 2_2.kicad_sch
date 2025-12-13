@@ -4271,7 +4271,7 @@
 		(uuid "fd6c5253-cf23-42af-9235-106642761609")
 	)
 	(label "DATA+"
-		(at 207.01 88.9 0)
+		(at 215.9 86.36 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4341,7 +4341,7 @@
 		(uuid "487273b1-bce0-4d58-8b7e-5ccdf07f0d3f")
 	)
 	(label "DATA-"
-		(at 215.9 86.36 0)
+		(at 207.01 88.9 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4796,7 +4796,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10uF"
+		(property "Value" "22uF"
 			(at 75.184 119.38 0)
 			(effects
 				(font
@@ -5860,7 +5860,8 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x05_Pin")
-		(at 200.66 33.02 180)
+		(at 200.66 33.02 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5876,8 +5877,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "Ext DIN header 1"
-			(at 201.93 22.86 0)
+		(property "Value" "Header 1"
+			(at 195.072 26.67 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -6087,7 +6088,8 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x05_Pin")
-		(at 200.66 55.88 180)
+		(at 200.66 55.88 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6103,8 +6105,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "Ext DIN Header 2"
-			(at 201.93 45.72 0)
+		(property "Value" "Header 2"
+			(at 195.072 49.53 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
